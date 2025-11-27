@@ -1,0 +1,28 @@
+{
+  "name": "my_project",
+  "version": "1.0.0",
+  "description": "Unlike frameworks that rely on web views or JavaScript bridges, Valdi compiles declaratively rendered TypeScript components into platform-native views. Valdi also includes several other performance advantages:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aka1976mb/my_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aka1976mb/my_project/issues"
+  },
+  "homepage": "https://github.com/aka1976mb/my_project#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "valdi": "file:packages/valdi"
+  }
+}
